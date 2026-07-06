@@ -4,12 +4,10 @@ A Windows CLI tool that methodically tests AmneziaWG obfuscation parameters to f
 
 ## Features
 
-- **Automated sweep** — tests all combinations of obfuscation parameters defined in `config.cfg`.
-- **Zero dependencies** — uses only the Python standard library.
+- **Automated sweep** — tests customizable combinations of obfuscation parameters defined in `config.cfg`.
 - **Auto-downloads binaries** — fetches and caches the latest `amneziawg.exe` / `awg.exe` on first run.
 - **Handshake + connectivity check** — verifies both a successful handshake and real traffic (ICMP ping).
-- **Safe routing** — applies localized routes so system traffic isn't hijacked during tests.
-- **Ready-to-use output** — exports a `winning.conf` when a working profile is found.
+- **Ready-to-use output** — exports to `results` folder after each successful run, separated by different runs.
 
 ## Requirements
 
