@@ -55,9 +55,7 @@ See [`config.cfg.example`](config.cfg.example) for all available options and doc
 
 ## A Note on DPI Bypass
 
-Parameter tuning defeats **signature-based** DPI (WireGuard blocked because it *looks like* WireGuard). It does **not** defeat **destination-based** blocking (censor allowlists specific providers/ASNs and throttles everything else).
-
-If a full sweep produces zero successful handshakes, try a server on a different hosting provider — packet obfuscation cannot fix IP-level blocking.
+Parameter tuning defeats **signature-based** DPI (WireGuard blocked because it *looks like* WireGuard). It does **not** defeat **destination-based** blocking such as direct IP block.
 
 ## License
 
