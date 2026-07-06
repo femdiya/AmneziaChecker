@@ -32,11 +32,6 @@ A Windows CLI tool that methodically tests AmneziaWG obfuscation parameters to f
    python main.py path\to\your_config.conf
    ```
 
-4. Preview the test matrix without making system changes:
-   ```cmd
-   python main.py path\to\your_config.conf --dry-run
-   ```
-
 ## Configuration (`config.cfg`)
 
 The sweep parameters are defined in `config.cfg`. Each parameter accepts a **single value**, a **comma-separated list**, or a **range** (`min-max`).
