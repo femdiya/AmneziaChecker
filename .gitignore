@@ -1,0 +1,38 @@
+# Runtime data
+config.cfg
+trials_log.csv
+*.conf
+!config.cfg.example
+
+# Output directories
+Logs/
+results/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Cached binaries
+.cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated
+Thumbs.db
+Desktop.ini
+.DS_Store

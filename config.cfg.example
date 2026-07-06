@@ -1,0 +1,33 @@
+## Changable junk values based on DPI. Accepts single values (e.g. 1), lists (e.g. 3, 4, 5), or ranges (e.g. 10-50).
+# Choose how many junk packets are sent before VPN handshake. Range 1-128.
+Jc = 1
+# Choose minimum size of junk packets that are sent before VPN handshake. Must be less than JMax. Range 1-1279.
+JMin = 1
+# Choose maximum size of junk packets that are sent before VPN handshake. Must be greater than JMin. Range 1-1280, Maximum (1280) is determined by MTU value and could be more or less.
+JMax = 1
+
+## Require server-side changes to AmneziaWG. Not recommended unless you've set-up AmneziaWG. For plain WireGuard, use default values.
+# Default value is 0.
+S1 = 0
+S2 = 0
+S3 = 0
+S4 = 0
+# Default value(s) are 1-4 in order.
+H1 = 1
+H2 = 2
+H3 = 3
+H4 = 4
+
+## Mimic DNS and SIP/QUIC status. Recommended to leave DNS on. Mimicing SIP will replace QUIC and otherwise.
+Mimic_DNS = Yes
+Mimic_SIP = No
+Mimic_QUIC = No
+
+## Domain used for obfuscation as a normal UDP traffic. DPI will see normal DNS traffic to this website. Note: QUIC domain masking is not currently implemented.
+Obfuscation_Domain = www.yahoo.com
+
+## Domains and IPs used for traffic verification via ICMP (ping) protocol. Comma-separated.
+# IPs
+IPs = 8.8.8.8, 1.1.1.1
+# Domains
+Domains = www.google.com, www.facebook.com, www.youtube.com
