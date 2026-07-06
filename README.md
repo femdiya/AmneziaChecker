@@ -54,10 +54,11 @@ See [`config.cfg.example`](config.cfg.example) for all available options and doc
 
 ## Output
 
-| File | Description |
+| Path | Description |
 |---|---|
 | `trials_log.csv` | Log of every tested combination and its result. |
-| `winning.conf` | A ready-to-import AmneziaWG config (created only on success). |
+| `results/` | Contains generated `.conf` files for each tested parameter combination, organized by run. |
+| `Logs/` | Timestamped log files with detailed output from each run. |
 
 ## A Note on DPI Bypass
 
