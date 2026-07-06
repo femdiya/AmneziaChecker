@@ -57,6 +57,25 @@ See [`config.cfg.example`](config.cfg.example) for all available options and doc
 
 Parameter tuning defeats **signature-based** DPI (WireGuard blocked because it *looks like* WireGuard). It does **not** defeat **destination-based** blocking such as direct IP block.
 
+## TODO
+
+- [ ] QUIC mimic
+- [ ] Support Linux
+- [ ] Support Mac (low priority)
+
+## Contributing & Feedback
+
+Found a bug? Have a feature request or general feedback? Feel free to:
+
+- [Open an Issue](../../issues) on GitHub
+- [Submit a Pull Request](../../pulls)
+
+All contributions and feedback are welcome!
+
+## Contact
+
+- Telegram: [https://t.me/femininedick](https://t.me/femininedick)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
